@@ -3,9 +3,10 @@
 package stderr
 
 import (
-	"libgo.io/log"
-	internallog "libgo.io/log/internal/log"
 	"os"
+
+	"github.com/bketelsen/libgo/log"
+	internallog "github.com/bketelsen/libgo/log/internal/log"
 )
 
 // New returns a new log.Log implementation that outputs log

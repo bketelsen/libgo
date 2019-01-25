@@ -1,8 +1,9 @@
 package stderr_test
 
 import (
-	"libgo.io/log"
-	"libgo.io/log/stderr"
+	"github.com/bketelsen/libgo/log"
+
+	"github.com/bketelsen/libgo/log/stderr"
 )
 
 func ExamplePrintln() {

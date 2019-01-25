@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"time"
 
-	"libgo.io/log"
+	"github.com/bketelsen/libgo/log"
 )
 
 type Base struct {
