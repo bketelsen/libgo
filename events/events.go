@@ -56,9 +56,9 @@ func (p *Publisher) Unsubscribe(s *Subscriber) {
 	var sub *Subscriber
 	for x, sub = range p.subscribers {
 		if sub == s {
+			found = true
 			break
 		}
-
 	}
 	if found {
 		p.subscribers = append(p.subscribers[:x], p.subscribers[x+1:]...)
