@@ -26,6 +26,7 @@ func (b *Base) withValue(key, val interface{}) *Context {
 }
 
 func (b *Base) output(c *Context) {
+	b.Writer
 
 }
 

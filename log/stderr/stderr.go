@@ -13,6 +13,6 @@ import (
 // information to os.Stderr
 func New() log.Log {
 	return &internallog.Base{
-		Writer: os.Stderr,
+		Writer: os.Stdout,
 	}
 }
